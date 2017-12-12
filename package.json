@@ -1,0 +1,19 @@
+{
+  "name": "@eclille/slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dotenv nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv-cli": "^1.4.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "nodemon": "^1.12.5"
+  }
+}
